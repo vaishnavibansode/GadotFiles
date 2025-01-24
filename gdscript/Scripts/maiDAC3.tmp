@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://y5vp5s7br5h2"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_3nmlt"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_3nmlt")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 133.0
+offset_top = 120.0
+offset_right = 559.0
+offset_bottom = 362.0
+theme_override_font_sizes/font_size = 41
+text = "i am iron man"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
